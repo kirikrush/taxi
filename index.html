@@ -15,7 +15,7 @@
         <img src="assets/img-compressed/дорога.png" alt="" class="car">
         <header>
             <div class="container d-flex justify-between">
-                <div class="div">
+                <div class="div d-flex align-items-center">
 
                     <div class="burger">
                         <div></div>
@@ -37,7 +37,7 @@
 
                     <address>
                         <span class="messenger__tel">+41 79 915 02 35</span>
-                        <button class="black">Обратный звонок</button>
+                        <button class="black call">Обратный звонок</button>
                     </address>
                     <ul class="language">
                         <li class="language__item"><a href="">ENG</a></li>
@@ -47,6 +47,35 @@
                 </div>
             </div>
         </header>
+        <div class="fixed-header">
+            <div class="container d-flex justify-between align-items-center">
+                <div class="div d-flex align-items-center">
+
+                    <div class="burger">
+                        <div></div>
+                    </div>
+                    <img src="assets/img/logowhite.png" alt="" class="logotype">
+
+                </div>
+                <div class="info align-items-center">
+                    
+                    <div class="mesenger">
+                        <span class="messenger__tel">+41 79 915 02 35</span>
+                        
+                    </div>
+
+                    <address>
+                       
+                        <button class="blue call">Обратный звонок</button>
+                    </address>
+                    <ul class="language">
+                        <li class="language__item"><a href="">ENG</a></li>
+                        <li class="language__item"><a href="">DE</a></li>
+                        <li class="language__item active"><a href="">RUS</a></li>
+                    </ul>
+                </div>
+        </div>
+        </div>
         <div class="container">
             <h1 class="heading--big"><strong> Трансфер бизнесс класса </strong> из Цюриха, <br>
                 Мюнхена, Констанца по Швейцарии и Европе</h1>
@@ -60,11 +89,14 @@
                 <input type="text" class="geo" placeholder="Куда?">
                 <input type="text" class="date" placeholder="Когда?">
                 <input type="text" placeholder="2 взрослых 1 ребенок">
-                <button class="blue">Узнать стоимость</button>
+                
 
             </form>
+           <div class="d-flex">
+            <button class="blue">Узнать стоимость</button>
             <p class="text white">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и
-                соглашаетесь с Политикой конфиденциальности</p>
+                соглашаетесь с <a href="">Политикой конфиденциальности</a></p>
+           </div>
         </div>
     </section>
     <section class="services">
@@ -438,39 +470,19 @@
 
         </div>
     </section>
-    <section class="calculator position-relative">
-        <img src="./assets/img-compressed/auto2.png" alt="" class="calculator__auto">
+    <section class="form">
         <div class="container">
-            <h2 class="heading--medium befored">Забронировать автомобиль</h2>
-            <p class="text">Мы свяжемся с Вами в течении 60 минут после оставленной заявки</p>
-        </div>
-        <div class="calculator__container">
-            <form action="" class="">
-                <div class="container d-flex justify-between inputs">
-                    <input type="text" class="geo" placeholder="Швейцария">
-                    <input type="text" class="geo" placeholder="Куда?">
-                    <input type="text" class="date" placeholder="Когда?">
-                </div>
-                <div class="container d-flex align-items-center justify-end">
-                    <div class="checkbox"> <label for="">Колличество взрослых</label>
-                        <input type="text" class="numeric"></div>
-                    <div class="checkbox"><label for="">Колличество детей</label>
-                        <input type="text" class="numeric"></div>
-                    <div class="checkbox"> <input id="bag" type="checkbox" class="numeric">
-                        <label for="bag" class="checker">Будет багаж</label></div>
-                    <div class="checkbox"><input id="child" type="checkbox" class="numeric">
-                        <label for="child" class="checker">Будут дети до 10 лет</label></div>
-                </div>
+            <form action="" class="d-flex justify-between">
+                <input type="text" class="geo" placeholder="Швейцария">
+                <input type="text" class="geo" placeholder="Куда?">
+                <input type="text" class="date" placeholder="Когда?">
+                <input type="text" placeholder="2 взрослых 1 ребенок">
+                
 
             </form>
-            <div class="container d-flex submiter">
-                <div class="current">
-                    <div class="current__inner"></div>
-                </div>
-                <button class="blue">Следующий шаг </button>
-            </div>
-
-        </div>
+            <button class="blue">Узнать стоимость</button>
+            <p class="text white">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и
+                соглашаетесь с Политикой конфиденциальности</p>
         </div>
     </section>
     <footer class="footer">
@@ -479,9 +491,7 @@
         <div class="container d-flex justify-between">
             <div class="div">
 
-                <div class="burger">
-                    <div></div>
-                </div>
+                
                 <img src="assets/img/logo2.png" alt="" class="logotype">
                 <p class="messenger__text">Оставляя заявку на сайте, Вы даете свое согласие на обработку персональных
                     данных и соглашаетесь c политикой конфиденциальности
@@ -502,7 +512,7 @@
 
                 <address>
                     <span class="messenger__tel">+41 79 915 02 35</span>
-                    <button class="black">Обратный звонок</button>
+                    <button class="black call">Обратный звонок</button>
                 </address>
 
             </div>
@@ -512,6 +522,73 @@
         </div>
 
     </footer>
+    <div class="menu">
+        <div class="container">
+            <div class="head">
+                <button class="clos">Закрыть меню</button>
+                <img src="assets/img/logowhite.png" alt="" class="logotype">
+                <address class="d-flex align-items-center">
+                    <span class="messenger__tel">+41 79 915 02 35</span>
+                    <button class="blue">Обратный звонок</button>
+                </address>
+            </div>
+            <ul class="menu__list">
+                <li><a href="">О компании</a></li>
+                <li><a href="">Автопарк</a></li>
+                <li><a href="">Галлерея</a></li>
+                <li><a href="">Отзывы</a></li>
+                <li class="mb0"><a href="">Услуги </a>
+                <ul class="inner">
+                    <li><a href="">Трансфер из аэропорта Мюнхена, Цюриха и Констанца</a></li>
+                    <li><a href="">Трансфер VIP</a></li>
+                    <li><a href="">Обслуживание делегаций и бизнес групп</a></li>
+                    <li><a href="">Трансфер до отеля</a></li>
+                    <li><a href="">Подбор образовательных и высших учебных заведений, помощь при посещении медицинских центров, экскурсии, бронирование отелей, визовая поддержка</a></li>
+                    <li><a href="">Трансфер на курорты</a></li>
+                    <li><a href="">Выездные экскурсии</a></li>
+                </ul></li>
+                <li><a href="">Виды трансферов</a></li>
+                <li><a href="">Контакты </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="overlay-bg">
+        <div class="modal container serv">
+            <div class="close"></div>
+            <div class="img" style="background-image:url(./assets/img/modal.png)"></div>
+            <div class="text-block">
+                <h2 class="heading--min">Подбор образовательных и высших учебных заведений, помощь при посещении медицинских центров, экскурсии, бронирование отелей, визовая поддержка</h2>
+                <p class="text">Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                <p class="text">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                <p class="price"><b>Стоимость услуги:</b> от <span class="bignum">60000</span> Р</p>
+                <button class="blue">Заказать услугу</button>
+            </div>
+        </div>
+        <div class="modal container transf justify-between">
+            
+            <div class="close"></div>
+            <div class="text-block">
+                <h2 class="heading--medium">Забронировать трансфер</h2>
+                <p class="text">Заполните форму ниже и Вам перезвонит менеджер в течении <br> 5 минут для уточнения деталей</p>
+                <form action="">
+                    <label for="name">введите ваше имя</label>
+                    <input placeholder="Алексей Алексеевич" id="name" type="text">
+                    <label for="tel">Введите ваш телефон</label>
+                    <input placeholder="+7 983 357 25 19" id="tel" type="text">
+                    <button class="blue">Забронировать трансфер</button>
+                    <p class="text">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и
+                        соглашаетесь с <a href="">Политикой конфиденциальности</a></p>
+                </form>
+            </div>
+            <div class="img" style="background-image:url(./assets/img/transfer.png)"></div>
+        </div>
+    </div>
+   
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+		<script src="./assets/js/script.js"></script>
 </body>
 
 </html>
